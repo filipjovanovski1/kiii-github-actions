@@ -27,6 +27,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: Dockerfile
           push: true
           tags: filipjovanovski1/kiii-actions:latest
